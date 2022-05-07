@@ -1,11 +1,17 @@
-.banner {
-  background-image: url(../assets/images/Background.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
 html {
   font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 1440px) {
+  .banner {
+    background-image: url(../assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+  }
 }

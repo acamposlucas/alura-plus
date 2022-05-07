@@ -22,25 +22,39 @@
   </head>
   <body class="bg-black">
     <div>
-      <main class="min-h-screen">
-        <div class="banner flex flex-col justify-center px-14">
-          <div class="w-[588px] flex flex-col gap-4 items-center text-center">
-            <h1 class="text-white text-[28px] font-bold">
-              Com o combo+, você pode aproveitar a Alura+ e o Alura Língua por
+      <main>
+        <div
+          class="banner flex flex-col justify-center md:items-center xl:items-start sm:px-4 sm:py-4"
+        >
+          <div
+            class="max-w-[588px] flex flex-col gap-4 items-center text-center"
+          >
+            <h1
+              class="text-white text-[28px] font-bold sm:order-1 md:order-none"
+            >
+              Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por
               um preço único.
             </h1>
-            <img src="/assets/images/combo.png" alt="" class="mx-auto my-0" />
-            <div class="flex flex-col gap-2 w-[588px] items-center">
-              <button
-                class="bg-blue-500 hover:bg-blue-600 p-4 border rounded-lg text-white w-full max-w-[512px] transition-colors"
+            <img
+              src="/assets/images/combo.png"
+              alt=""
+              class="sm:mx-auto sm:my-0"
+            />
+            <div
+              class="flex flex-col gap-2 w-full items-center sm:order-2 md:order-none"
+            >
+              <a
+                href="#"
+                class="bg-blue-500 hover:bg-blue-600 p-4 border border-transparent rounded-lg text-white w-full max-w-[512px] transition-colors sm:text-sm md:text-base"
               >
                 Assine por 12x de R$120,00*
-              </button>
-              <button
-                class="p-4 rounded-lg text-white bg-transparent border border-slate-200 w-full max-w-[512px] hover:bg-slate-200 hover:text-black transition-colors"
+              </a>
+              <a
+                href="#"
+                class="p-4 rounded-lg text-white bg-transparent border border-slate-200 w-full max-w-[512px] hover:bg-slate-200 hover:text-black transition-colors sm:text-sm md:text-base"
               >
                 Assinar somente Alura+
-              </button>
+              </a>
               <span class="text-xs text-slate-400"
                 >*O preço pode variar caso a assinatura seja feita em outros
                 planos.</span
@@ -48,129 +62,151 @@
             </div>
           </div>
         </div>
-        <div
-          class="py-24 px-40 text-white flex gap-16 items-center justify-center"
-        >
-          <img
-            src="/assets/images/plataforma01.png"
-            alt=""
-            class="w-[500px] h-[560px]"
-            data-aos="fade-up-right"
-            data-aos-duration="2500"
-          />
-          <div class="flex flex-col gap-2 w-[588px]">
-            <h2 class="text-5xl font-bold">Assista do seu jeito</h2>
-            <p class="text-base text-slate-400">
-              Aproveite a tela grande da TV ou assista no tablet, laptop,
-              celular e outros aparelhos. Nossa seleção de cursos não para de
-              crescer.
-            </p>
-          </div>
-        </div>
-        <div
-          class="py-24 px-40 text-white flex gap-16 items-center justify-center"
-        >
-          <div class="flex flex-col gap-2 w-[588px]">
-            <h2 class="text-5xl font-bold">Combo+</h2>
-            <p class="text-base text-slate-400">
-              Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter
-              acesso a cursos de diversas áreas da tecnologia e aprender inglês
-              ou espanhol, onde e como quiser.
-            </p>
-          </div>
-          <img
-            src="/assets/images/telas.png"
-            alt=""
-            class="w-[480px] h-[340px]"
-            data-aos="fade-up-left"
-            data-aos-duration="2500"
-          />
-        </div>
-        <div
-          class="py-24 px-40 text-white flex gap-16 items-center justify-center"
-        >
-          <img
-            src="/assets/images/notebook.png"
-            alt=""
-            class="w-[550px] h-[325px]"
-            data-aos="fade-up"
-            data-aos-duration="2500"
-          />
-          <div class="flex flex-col gap-2 w-[588px]">
-            <h2 class="text-5xl font-bold">Baixe seus cursos</h2>
-            <p class="text-base text-slate-400">
-              Baixe e assista quando e onde quiser. Assim, seus favoritos estão
-              sempre com você, até mesmo sem internet.
-            </p>
-          </div>
-        </div>
-        <div class="my-40">
-          <h1 class="text-white text-5xl text-center mb-10 font-bold">
-            Disponível nos seus dispositivos favoritos
-          </h1>
-          <ul
-            class="flex items-center justify-center text-center text-white text-lg font-bold"
+        <div class="flex flex-col gap-4 sm:px-4 sm:py-4">
+          <div
+            class="md:py-12 md:px-24 xl:py-24 xl:px-40 text-white flex flex-col md:flex-row gap-16 items-center justify-center w-full"
           >
-            <li>
-              <img src="/assets/images/tv.png" alt="" />
-              <p>TV</p>
-            </li>
-            <li>
-              <img src="/assets/images/computador.png" alt="" />
-              <p>Computador</p>
-            </li>
-            <li>
-              <img src="/assets/images/celular.png" alt="" />
-              <p>Celulares e tablets</p>
-            </li>
-          </ul>
+            <div
+              class="flex flex-col gap-2 max-w-[588px] text-center md:text-left sm:order-1"
+            >
+              <h2 class="text-3xl xl:text-5xl font-bold">
+                Assista do seu jeito
+              </h2>
+              <p class="text-base text-slate-400">
+                Aproveite a tela grande da TV ou assista no tablet, laptop,
+                celular e outros aparelhos. Nossa seleção de cursos não para de
+                crescer.
+              </p>
+            </div>
+            <img
+              src="/assets/images/plataforma01.png"
+              alt=""
+              class="xl:w-[500px] xl:h-[560px] md:w-[270px] md:h-[330px]"
+              data-aos="fade-up-right"
+              data-aos-duration="2500"
+            />
+          </div>
+          <div
+            class="md:py-12 md:px-24 xl:py-24 xl:px-40 text-white flex flex-col md:flex-row gap-16 items-center justify-center"
+          >
+            <div
+              class="flex flex-col gap-2 max-w-[588px] text-center md:text-left sm:order-1 md:order-none"
+            >
+              <h2 class="text-3xl xl:text-5xl font-bold">Combo+</h2>
+              <p class="text-base text-slate-400">
+                Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter
+                acesso a cursos de diversas áreas da tecnologia e aprender
+                inglês ou espanhol, onde e como quiser.
+              </p>
+            </div>
+            <img
+              src="/assets/images/telas.png"
+              alt=""
+              class="xl:w-[480px] xl:h-[340px] md:w-[340px] md:h-[220px]"
+              data-aos="fade-up-left"
+              data-aos-duration="2500"
+            />
+          </div>
+          <div
+            class="md:py-12 md:px-24 xl:py-24 xl:px-40 text-white flex flex-col md:flex-row gap-16 items-center justify-center"
+          >
+            <div
+              class="flex flex-col gap-2 max-w-[588px] text-center md:text-left sm:order-1"
+            >
+              <h2 class="text-3xl xl:text-5xl font-bold">Baixe seus cursos</h2>
+              <p class="text-base text-slate-400">
+                Baixe e assista quando e onde quiser. Assim, seus favoritos
+                estão sempre com você, até mesmo sem internet.
+              </p>
+            </div>
+            <img
+              src="/assets/images/notebook.png"
+              alt=""
+              class="xl:w-[550px] xl:h-[325px] md:w-[450px] md:h-[200px]"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+            />
+          </div>
+          <div class="sm:px-4 sm:py-4">
+            <h3
+              class="text-white md:text-3xl xl:text-4xl text-center mb-10 font-bold"
+            >
+              Disponível nos seus dispositivos favoritos
+            </h3>
+            <ul
+              class="flex items-center justify-center text-center text-white text-lg font-bold"
+            >
+              <li>
+                <img src="/assets/images/tv.png" alt="" />
+                <p class="sm:text-sm md:text-base">TV</p>
+              </li>
+              <li>
+                <img src="/assets/images/computador.png" alt="" />
+                <p class="sm:text-sm md:text-base">Computador</p>
+              </li>
+              <li>
+                <img src="/assets/images/celular.png" alt="" />
+                <p class="sm:text-sm md:text-base">Celulares e tablets</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </main>
-      <footer class="px-32 pb-20">
-        <img src="/assets/images/logo.svg" alt="" class="mx-auto my-0 p-10" />
-        <ul class="text-white flex gap-4 justify-center pb-6">
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50"
-              >Idioma</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50"
-              >Dispositivos compatíveis</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50"
-              >Contrato de assinatura</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50"
-              >Política de privacidade</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50"
-              >Proteção de dados no Brasil</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50"
-              >Anúncios personalizados</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:border-b-2 hover:border-slate-50">Ajuda</a>
-          </li>
-        </ul>
-        <div class="text-slate-400 text-center">
-          ® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados.
-          Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.<br />
+      <footer class="sm:px-4 sm:py-4 text-center">
+        <img src="/assets/images/logo.svg" alt="" class="mx-auto my-0 pb-10" />
+        <div
+          class="flex sm:flex-col md:flex-row md:flex-wrap xl:flex-col md:justify-between items-center"
+        >
+          <ul
+            class="text-white flex sm:flex-col xl:flex-row gap-4 justify-center pb-6 md:w-1/3 xl:w-full"
+          >
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Idioma</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Dispositivos compatíveis</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Contrato de assinatura</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Política de privacidade</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Proteção de dados no Brasil</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Anúncios personalizados</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:border-b-2 hover:border-slate-50"
+                >Ajuda</a
+              >
+            </li>
+          </ul>
+          <div
+            class="text-slate-400 md:w-1/2 sm:text-center md:text-left xl:w-full xl:text-center"
+          >
+            ® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados.
+            Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.<br />
 
-          Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e
-          condições. O serviço Alura+ é comercializado por Aovs Sistemas de
-          Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP,
-          04101-300, Brasil e CNPJ 05.555.382/0001-33
+            Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e
+            condições. O serviço Alura+ é comercializado por Aovs Sistemas de
+            Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP,
+            04101-300, Brasil e CNPJ 05.555.382/0001-33
+          </div>
         </div>
       </footer>
     </div>
