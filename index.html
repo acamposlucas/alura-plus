@@ -10,14 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/styles.css" />
+
     <title>Alura Plus</title>
   </head>
-  <body>
+  <body class="bg-black">
     <div>
-      <main class="bg-black">
-        <div role="banner" class="banner flex flex-col justify-center px-14">
+      <main class="min-h-screen">
+        <div class="banner flex flex-col justify-center px-14">
           <div class="w-[588px] flex flex-col gap-4 items-center text-center">
             <h1 class="text-white text-[28px] font-bold">
               Com o combo+, você pode aproveitar a Alura+ e o Alura Língua por
@@ -31,7 +37,7 @@
                 Assine por 12x de R$120,00*
               </button>
               <button
-                class="p-4 rounded-lg text-white bg-transparent border border-white w-full max-w-[512px] hover:bg-slate-50 hover:text-black transition-colors"
+                class="p-4 rounded-lg text-white bg-transparent border border-slate-200 w-full max-w-[512px] hover:bg-slate-200 hover:text-black transition-colors"
               >
                 Assinar somente Alura+
               </button>
@@ -42,7 +48,135 @@
             </div>
           </div>
         </div>
+        <div
+          class="py-24 px-40 text-white flex gap-16 items-center justify-center"
+        >
+          <img
+            src="/assets/images/plataforma01.png"
+            alt=""
+            class="w-[500px] h-[560px]"
+            data-aos="fade-up-right"
+            data-aos-duration="2500"
+          />
+          <div class="flex flex-col gap-2 w-[588px]">
+            <h2 class="text-5xl font-bold">Assista do seu jeito</h2>
+            <p class="text-base text-slate-400">
+              Aproveite a tela grande da TV ou assista no tablet, laptop,
+              celular e outros aparelhos. Nossa seleção de cursos não para de
+              crescer.
+            </p>
+          </div>
+        </div>
+        <div
+          class="py-24 px-40 text-white flex gap-16 items-center justify-center"
+        >
+          <div class="flex flex-col gap-2 w-[588px]">
+            <h2 class="text-5xl font-bold">Combo+</h2>
+            <p class="text-base text-slate-400">
+              Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter
+              acesso a cursos de diversas áreas da tecnologia e aprender inglês
+              ou espanhol, onde e como quiser.
+            </p>
+          </div>
+          <img
+            src="/assets/images/telas.png"
+            alt=""
+            class="w-[480px] h-[340px]"
+            data-aos="fade-up-left"
+            data-aos-duration="2500"
+          />
+        </div>
+        <div
+          class="py-24 px-40 text-white flex gap-16 items-center justify-center"
+        >
+          <img
+            src="/assets/images/notebook.png"
+            alt=""
+            class="w-[550px] h-[325px]"
+            data-aos="fade-up"
+            data-aos-duration="2500"
+          />
+          <div class="flex flex-col gap-2 w-[588px]">
+            <h2 class="text-5xl font-bold">Baixe seus cursos</h2>
+            <p class="text-base text-slate-400">
+              Baixe e assista quando e onde quiser. Assim, seus favoritos estão
+              sempre com você, até mesmo sem internet.
+            </p>
+          </div>
+        </div>
+        <div class="my-40">
+          <h1 class="text-white text-5xl text-center mb-10 font-bold">
+            Disponível nos seus dispositivos favoritos
+          </h1>
+          <ul
+            class="flex items-center justify-center text-center text-white text-lg font-bold"
+          >
+            <li>
+              <img src="/assets/images/tv.png" alt="" />
+              <p>TV</p>
+            </li>
+            <li>
+              <img src="/assets/images/computador.png" alt="" />
+              <p>Computador</p>
+            </li>
+            <li>
+              <img src="/assets/images/celular.png" alt="" />
+              <p>Celulares e tablets</p>
+            </li>
+          </ul>
+        </div>
       </main>
+      <footer class="px-32 pb-20">
+        <img src="/assets/images/logo.svg" alt="" class="mx-auto my-0 p-10" />
+        <ul class="text-white flex gap-4 justify-center pb-6">
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50"
+              >Idioma</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50"
+              >Dispositivos compatíveis</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50"
+              >Contrato de assinatura</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50"
+              >Política de privacidade</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50"
+              >Proteção de dados no Brasil</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50"
+              >Anúncios personalizados</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 hover:border-slate-50">Ajuda</a>
+          </li>
+        </ul>
+        <div class="text-slate-400 text-center">
+          ® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados.
+          Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.<br />
+
+          Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e
+          condições. O serviço Alura+ é comercializado por Aovs Sistemas de
+          Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP,
+          04101-300, Brasil e CNPJ 05.555.382/0001-33
+        </div>
+      </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

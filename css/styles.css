@@ -3,5 +3,9 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 680px;
+  height: 100vh;
+}
+
+html {
+  font-family: "Inter", sans-serif;
 }
